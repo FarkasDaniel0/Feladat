@@ -1,5 +1,5 @@
 
-/* * *  Külsõ keret formázása  * * */
+/* * *  Kï¿½lsï¿½ keret formï¿½zï¿½sa  * * */
 
 
     body
@@ -54,7 +54,7 @@
 
 
 
-/* * *  Belsõ keret formázása  * * */
+/* * *  Belsï¿½ keret formï¿½zï¿½sa  * * */
 
 
     body#belso
@@ -81,7 +81,7 @@
 
 
 
-/* * *  Belsõ keret: lista és képek-bekezdések formázása  * * */
+/* * *  Belsï¿½ keret: lista ï¿½s kï¿½pek-bekezdï¿½sek formï¿½zï¿½sa  * * */
 
 
     body#belso div#lista ul
@@ -105,7 +105,8 @@
     body#belso div#lista div:nth-child(even)
     {
 	height            :  160px               ;
-	margin-left       :   90px               ;
+    margin-left       :   90px               ;
+    
     }
 
     body#belso div#lista div img
@@ -127,4 +128,32 @@
 	margin-left       :  220px               ;
 	text-align        :  justify             ;
     }
+    body#belso div#lista div#jobb p{
+        margin-right       :  220px               ;
+	text-align        :  justify             ;
+    }
+    
+    body#belso div#lista div#jobb h2{
+        margin-top        : -156px               ;
+	margin-right     :  212px 
+    }
+
+    body#belso div#lista div#jobb img
+    {
+	width             :  180px               ;
+	height            :  180px               ;
+	border-radius     :  8px                 ;
+    box-shadow        :  8px 8px 4px #1118   ;
+    float: right;
+    margin-botto: -30px ;
+    }
+
+    body#belso div#lista div#jobb
+    {
+	height            :  160px               ;
+    margin-left       :   90px               ;
+    margin-top: 160px
+    }
+
+    
 
